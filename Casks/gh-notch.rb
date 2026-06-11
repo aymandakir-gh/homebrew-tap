@@ -17,7 +17,7 @@ cask "gh-notch" do
   desc "Open-source macOS notch utility with a local-first AI command bar"
   homepage "https://github.com/aymandakir-gh/gh-notch"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "gh-notch.app"
 
